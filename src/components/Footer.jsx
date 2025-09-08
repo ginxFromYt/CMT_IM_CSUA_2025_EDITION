@@ -27,6 +27,17 @@ function Footer() {
             <li><a href="#lab">Laboratory Guides</a></li>
           </ul>
         </div>
+        <div className="footer-section instructor-section">
+          <h5>Subject Instructor</h5>
+          <div className="instructor-info">
+            <img src="/pic.JPG" alt="Gino Carlo O. Rabina" className="instructor-photo" />
+            <div className="instructor-details">
+              <h6>Gino Carlo O. Rabina, MSIT</h6>
+              <p>Subject Instructor</p>
+              <p>IT 216: Computer Maintenance and Troubleshooting</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="footer-bottom">
         <p>&copy; 2025 Cagayan State University - CICS. Educational materials for IT 216.</p>
