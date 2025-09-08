@@ -10,34 +10,34 @@ function App() {
 
   const modules = [
     {
-      id: 'introduction',
-      title: 'Introduction to Computer Maintenance',
-      description: 'Basic concepts and overview of computer maintenance and troubleshooting'
+      id: 'pc-trouble',
+      title: 'PC Trouble Fundamentals',
+      description: 'Understanding PC problems, hardware vs software issues, and quick fixes'
     },
     {
-      id: 'hardware',
-      title: 'Hardware Components',
-      description: 'Understanding computer hardware components and their functions'
+      id: 'startup-problems',
+      title: 'Startup Problems',
+      description: 'Boot process, POST, startup options, and operating system initialization'
     },
     {
-      id: 'software',
-      title: 'Software Systems',
-      description: 'Operating systems, drivers, and software troubleshooting'
+      id: 'disk-configuration',
+      title: 'Disk Configuration',
+      description: 'Mass storage, disk utilities, drive management, and partitioning'
     },
     {
-      id: 'troubleshooting',
-      title: 'Troubleshooting Methodology',
-      description: 'Systematic approach to diagnosing and solving computer problems'
+      id: 'monitor-internal',
+      title: 'Monitor & Internal Issues',
+      description: 'Display troubleshooting, internal components, and power management'
     },
     {
-      id: 'preventive',
-      title: 'Preventive Maintenance',
-      description: 'Best practices for maintaining computer systems'
+      id: 'peripherals-software',
+      title: 'Peripherals & Software',
+      description: 'Printer problems, peripheral troubleshooting, and software installation'
     },
     {
-      id: 'tools',
-      title: 'Tools and Resources',
-      description: 'Essential tools and software for computer maintenance'
+      id: 'tools-security',
+      title: 'Tools, Security & Performance',
+      description: 'System utilities, PC security, backup and restore, and performance optimization'
     }
   ]
 
