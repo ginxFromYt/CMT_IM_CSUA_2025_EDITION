@@ -1555,6 +1555,333 @@
   }
 }
 
+/* Monitor and Internal Issues Specific Styles */
+.display-technology-showcase {
+  padding: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.panel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.panel-type {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.panel-type img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.panel-type h6 {
+  margin: 0 0 1rem 0;
+  font-size: 1.125rem;
+  color: white;
+}
+
+.specs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.spec-good {
+  background: #27ae60;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.spec-bad {
+  background: #e74c3c;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.spec-neutral {
+  background: #f39c12;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.spec-excellent {
+  background: #8e44ad;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.connection-diagram {
+  margin-top: 2rem;
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  color: #2d3748;
+}
+
+.connection-visual {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.connection-flowchart {
+  width: 100%;
+  height: auto;
+  min-width: 800px;
+}
+
+.diagnostic-tools-visual {
+  margin-top: 2rem;
+}
+
+.tool-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.tool-demo {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tool-demo h5 {
+  margin: 0 0 1.5rem 0;
+  color: #2d3748;
+  font-size: 1.25rem;
+}
+
+.mock-dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.gauge {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.gauge-label {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+}
+
+.gauge-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.gauge-status {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.gauge-status.normal {
+  background: #27ae60;
+}
+
+.gauge-status.high {
+  background: #f39c12;
+}
+
+.gauge-status.critical {
+  background: #e74c3c;
+}
+
+.test-patterns {
+  margin-top: 1rem;
+}
+
+.pattern-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.test-pattern {
+  height: 100px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.test-pattern.gradient {
+  background: linear-gradient(45deg, #000, #fff);
+}
+
+.test-pattern.checkerboard {
+  background: 
+    repeating-conic-gradient(#000 0% 25%, #fff 0% 50%) 50% / 20px 20px;
+}
+
+.test-pattern.color-bars {
+  background: linear-gradient(90deg, 
+    red 0% 14.28%, 
+    orange 14.28% 28.56%, 
+    yellow 28.56% 42.84%, 
+    green 42.84% 57.12%, 
+    blue 57.12% 71.4%, 
+    indigo 71.4% 85.68%, 
+    violet 85.68% 100%
+  );
+}
+
+.test-pattern.text-clarity {
+  background: #2d3748;
+  font-size: 0.875rem;
+  padding: 0.5rem;
+}
+
+/* Technology Roadmap Styles */
+.roadmap-section {
+  margin: 2rem 0;
+}
+
+.timeline-roadmap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.roadmap-item {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #667eea;
+}
+
+.roadmap-item h6 {
+  color: #667eea;
+  margin: 0 0 1rem 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.roadmap-item ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.roadmap-item li {
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.resource-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #9b59b6;
+  transition: transform 0.3s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-2px);
+}
+
+.resource-card h5 {
+  color: #2d3748;
+  margin: 0 0 1rem 0;
+  font-size: 1.125rem;
+}
+
+.resource-card p {
+  color: #4a5568;
+  line-height: 1.6;
+  margin: 0 0 1rem 0;
+}
+
+.resource-link {
+  color: #9b59b6;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.resource-link:hover {
+  color: #8e44ad;
+}
+
+/* Monitor-specific responsive adjustments */
+@media (max-width: 768px) {
+  .panel-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .tool-showcase {
+    grid-template-columns: 1fr;
+  }
+  
+  .mock-dashboard {
+    grid-template-columns: 1fr;
+  }
+  
+  .pattern-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .timeline-roadmap {
+    grid-template-columns: 1fr;
+  }
+  
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .connection-flowchart {
+    min-width: 600px;
+  }
+}
+
 /* Animation for topic content loading */
 .topic-content * {
   animation: fadeInUp 0.5s ease;
@@ -1568,5 +1895,540 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Peripherals & Software Specific Styles */
+.device-testing-visual {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  padding: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.testing-station {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
+}
+
+.device-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.mouse-tester, .keyboard-tester {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.performance-metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.metric {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.metric-label {
+  font-size: 0.875rem;
+  opacity: 0.9;
+}
+
+.metric-value {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.metric-bar {
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 0.25rem;
+}
+
+.metric-fill {
+  height: 100%;
+  background: #2ecc71;
+  transition: width 0.3s ease;
+}
+
+.metric-fill.excellent {
+  background: #9b59b6;
+}
+
+.metric-fill.good {
+  background: #27ae60;
+}
+
+.key-matrix-visual {
+  padding: 1rem;
+}
+
+.matrix-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.key-row {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.key {
+  width: 2rem;
+  height: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.key.active {
+  background: #e74c3c;
+  border-color: #c0392b;
+  box-shadow: 0 0 8px rgba(231, 76, 60, 0.5);
+}
+
+.status-indicator {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.network-topology {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  color: #2d3748;
+  margin-bottom: 2rem;
+}
+
+.topology-diagram {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.network-diagram {
+  width: 100%;
+  height: auto;
+  min-width: 800px;
+}
+
+.conflict-dashboard {
+  background: #2d3748;
+  border-radius: 12px;
+  padding: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.dashboard-panels {
+  margin-top: 1rem;
+}
+
+.panel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.status-panel {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.status-panel h6 {
+  margin: 0 0 1rem 0;
+  color: #e2e8f0;
+  font-size: 1rem;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.service-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.service-item.running {
+  background: rgba(46, 204, 113, 0.2);
+  border-left: 3px solid #2ecc71;
+}
+
+.service-item.warning {
+  background: rgba(243, 156, 18, 0.2);
+  border-left: 3px solid #f39c12;
+}
+
+.service-item.error {
+  background: rgba(231, 76, 60, 0.2);
+  border-left: 3px solid #e74c3c;
+}
+
+.driver-status-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.driver-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.status-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.status-indicator.ok {
+  background: #2ecc71;
+}
+
+.status-indicator.warning {
+  background: #f39c12;
+}
+
+.status-indicator.error {
+  background: #e74c3c;
+}
+
+.performance-chart {
+  display: flex;
+  align-items: end;
+  gap: 0.5rem;
+  height: 80px;
+  padding: 0.5rem;
+}
+
+.chart-bar {
+  flex: 1;
+  background: linear-gradient(to top, #667eea, #764ba2);
+  border-radius: 2px 2px 0 0;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 0.25rem;
+  transition: height 0.3s ease;
+}
+
+.bar-label {
+  font-size: 0.75rem;
+  color: white;
+  font-weight: 600;
+  transform: rotate(-45deg);
+  white-space: nowrap;
+}
+
+.flowchart-container {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 2rem;
+  color: #2d3748;
+}
+
+.flowchart-step {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.flowchart-step.start {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+.step-options {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.option-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.875rem;
+}
+
+.option-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.flowchart-paths {
+  margin-top: 2rem;
+}
+
+.path-branch {
+  display: flex;
+  justify-content: center;
+}
+
+.decision-node {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-width: 200px;
+}
+
+.decision-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.yes-path, .no-path {
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.yes-path {
+  background: #d4edda;
+  color: #155724;
+  border-left: 3px solid #28a745;
+}
+
+.no-path {
+  background: #f8d7da;
+  color: #721c24;
+  border-left: 3px solid #dc3545;
+}
+
+/* Diagnostic methodology styles */
+.diagnostic-methodology {
+  margin: 2rem 0;
+}
+
+.step-by-step-guide {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.diagnostic-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+  background: #667eea;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-content h6 {
+  margin: 0 0 0.5rem 0;
+  color: #2d3748;
+  font-size: 1.125rem;
+}
+
+.step-content ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  color: #4a5568;
+}
+
+/* Device specific guides */
+.device-troubleshooting-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.device-guide {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #667eea;
+}
+
+.device-guide h6 {
+  margin: 0 0 1rem 0;
+  color: #2d3748;
+  font-size: 1.125rem;
+}
+
+.common-issues {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.issue-item {
+  border-left: 3px solid #e2e8f0;
+  padding-left: 1rem;
+}
+
+.issue-item strong {
+  color: #2d3748;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.issue-item ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  color: #4a5568;
+}
+
+/* Printer troubleshooting styles */
+.troubleshooting-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.trouble-category {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trouble-category h6 {
+  margin: 0 0 1rem 0;
+  color: #2d3748;
+  font-size: 1.125rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.solution-item {
+  background: #f8fafc;
+  border-radius: 6px;
+  padding: 1rem;
+  border-left: 3px solid #667eea;
+}
+
+.solution-item strong {
+  color: #2d3748;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.975rem;
+}
+
+.solution-item ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  color: #4a5568;
+  font-size: 0.875rem;
+}
+
+/* Responsive design for peripherals module */
+@media (max-width: 768px) {
+  .device-showcase {
+    grid-template-columns: 1fr;
+  }
+  
+  .panel-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .driver-status-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .device-troubleshooting-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .solutions-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .network-diagram {
+    min-width: 600px;
+  }
+  
+  .step-options {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .diagnostic-step {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .step-number {
+    margin: 0 auto 1rem auto;
   }
 }
